@@ -1,0 +1,32 @@
+{
+  "name": "Honryn",
+  "short_name": "Honryn",
+  "id": "/honryn-app/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0D0D12",
+  "theme_color": "#0D0D12",
+  "description": "Jeu pour adultes : Action ou Vérité et Roue des plaisirs.",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+} 
