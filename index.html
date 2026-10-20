@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -13,7 +14,10 @@
 <body>
   <div class="app-shell">
     <header class="topbar">
-      <button class="brand" data-screen="home" aria-label="Accueil Honryn"><span class="brand-mark">H</span><span class="brand-name">HONRYN</span></button>
+      <button class="brand" data-screen="home" aria-label="Accueil Honryn">
+        <span class="brand-mark">H</span>
+        <span class="brand-name">HONRYN</span>
+      </button>
       <div class="top-actions">
         <button class="icon-button" id="history-open" aria-label="Historique" title="Historique">◷</button>
         <button class="icon-button" id="settings-open" aria-label="Paramètres" title="Paramètres">⚙</button>
@@ -26,22 +30,73 @@
           <p class="eyebrow"><span class="eyebrow-line"></span> VOTRE MOMENT À DEUX</p>
           <h1 id="home-title">À deux,<br><em>autrement.</em></h1>
           <p class="hero-copy">Un jeu pour se surprendre, se rapprocher et découvrir ce qui se cache derrière les habitudes.</p>
-          <div class="hero-orbit" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit-core">H</span><span class="orbit-dot"></span></div>
+          <div class="hero-orbit" aria-hidden="true">
+            <span class="orbit orbit-one"></span>
+            <span class="orbit orbit-two"></span>
+            <span class="orbit-core">H</span>
+            <span class="orbit-dot"></span>
+          </div>
         </div>
-        <div class="section-heading"><div><p class="eyebrow">CHOISISSEZ VOTRE ÉLAN</p><h2>Votre soirée, vos règles.</h2></div></div>
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CHOISISSEZ VOTRE ÉLAN</p>
+            <h2>Votre soirée, vos règles.</h2>
+          </div>
+        </div>
+
         <div class="mode-grid">
-          <button class="mode-card mode-featured" data-mode="av"><span class="mode-number">01 / JEU CLASSIQUE</span><span class="mode-symbol">✧</span><strong>Action ou vérité</strong><span class="mode-description">Des questions sincères, des défis complices.</span><span class="mode-link">Commencer <b>↗</b></span></button>
-          <button class="mode-card" data-mode="wheel"><span class="mode-number">02 / AU HASARD</span><span class="mode-symbol">◉</span><strong>La roue</strong><span class="mode-description">Laissez le hasard choisir votre prochaine étape.</span><span class="mode-link">Faire tourner <b>↗</b></span></button>
-          <button class="mode-card" data-mode="couple"><span class="mode-number">03 / À DEUX</span><span class="mode-symbol">♡</span><strong>Connexion</strong><span class="mode-description">Des moments pour mieux vous comprendre.</span><span class="mode-link">Se retrouver <b>↗</b></span></button>
-          <button class="mode-card" data-mode="discovery"><span class="mode-number">04 / DÉCOUVERTE</span><span class="mode-symbol">⌁</span><strong>Terrain inconnu</strong><span class="mode-description">Ouvrez des conversations que vous n'avez pas encore eues.</span><span class="mode-link">Explorer <b>↗</b></span></button>
-          <button class="mode-card mode-custom" data-mode="custom"><span class="mode-number">05 / VOTRE JEU</span><span class="mode-symbol">＋</span><strong>Sur mesure</strong><span class="mode-description">Vos cartes, vos envies, vos limites.</span><span class="mode-link">Personnaliser <b>↗</b></span></button>
+          <button class="mode-card mode-featured" data-mode="av">
+            <span class="mode-number">01 / JEU CLASSIQUE</span>
+            <span class="mode-symbol">✧</span>
+            <strong>Action ou vérité</strong>
+            <span class="mode-description">Des questions sincères, des défis complices.</span>
+            <span class="mode-link">Commencer <b>↗</b></span>
+          </button>
+          <button class="mode-card" data-mode="wheel">
+            <span class="mode-number">02 / AU HASARD</span>
+            <span class="mode-symbol">◉</span>
+            <strong>La roue</strong>
+            <span class="mode-description">Laissez le hasard choisir votre prochaine étape.</span>
+            <span class="mode-link">Faire tourner <b>↗</b></span>
+          </button>
+          <button class="mode-card" data-mode="couple">
+            <span class="mode-number">03 / À DEUX</span>
+            <span class="mode-symbol">♡</span>
+            <strong>Connexion</strong>
+            <span class="mode-description">Des moments pour mieux vous comprendre.</span>
+            <span class="mode-link">Se retrouver <b>↗</b></span>
+          </button>
+          <button class="mode-card" data-mode="discovery">
+            <span class="mode-number">04 / DÉCOUVERTE</span>
+            <span class="mode-symbol">⌁</span>
+            <strong>Terrain inconnu</strong>
+            <span class="mode-description">Ouvrez des conversations que vous n'avez pas encore eues.</span>
+            <span class="mode-link">Explorer <b>↗</b></span>
+          </button>
+          <button class="mode-card mode-custom" data-mode="custom">
+            <span class="mode-number">05 / VOTRE JEU</span>
+            <span class="mode-symbol">＋</span>
+            <strong>Sur mesure</strong>
+            <span class="mode-description">Vos cartes, vos envies, vos limites.</span>
+            <span class="mode-link">Personnaliser <b>↗</b></span>
+          </button>
         </div>
-        <footer class="home-footer"><span>CONÇU POUR DEUX ADULTES CONSENTANTS</span><span>À VOTRE RYTHME · SANS PRESSION</span></footer>
+
+        <footer class="home-footer">
+          <span>CONÇU POUR DEUX ADULTES CONSENTANTS</span>
+          <span>À VOTRE RYTHME · SANS PRESSION</span>
+        </footer>
       </section>
 
       <section class="screen" id="screen-game" aria-labelledby="game-title">
         <button class="back-link" data-screen="home">← Accueil</button>
-        <div class="game-heading"><p class="eyebrow" id="game-eyebrow">VOTRE MOMENT</p><h1 id="game-title">Action ou <em>vérité.</em></h1><p id="game-subtitle" class="muted">Choisissez une ambiance, puis laissez le jeu vous surprendre.</p></div>
+        <div class="game-heading">
+          <p class="eyebrow" id="game-eyebrow">VOTRE MOMENT</p>
+          <h1 id="game-title">Action ou <em>vérité.</em></h1>
+          <p id="game-subtitle" class="muted">Choisissez une ambiance, puis laissez le jeu vous surprendre.</p>
+        </div>
+
         <div class="game-controls" id="level-controls">
           <span class="control-label">AMBIANCE</span>
           <div class="pill-group" id="level-pills" role="group" aria-label="Ambiance"></div>
@@ -50,16 +105,34 @@
           <span class="control-label">VOTRE INTENTION</span>
           <div class="pill-group" id="filter-pills" role="group" aria-label="Intention"></div>
         </div>
-        <div class="player-line"><span class="player-dot"></span><span id="turn-label">À vous de jouer</span><button id="change-turn" class="text-button">Changer ↗</button></div>
+
+        <div class="player-line">
+          <span class="player-dot"></span>
+          <span id="turn-label">À vous de jouer</span>
+          <button id="change-turn" class="text-button">Changer ↗</button>
+        </div>
+
         <div class="play-area" id="play-area">
-          <div class="empty-card" id="empty-card"><span class="card-kicker">UNE CARTE VOUS ATTEND</span><span class="card-flower">✧</span><p>Le plus intéressant commence<br>parfois avec une question.</p><button class="primary-button" id="draw-card">Découvrir une carte <span>↗</span></button></div>
+          <div class="empty-card" id="empty-card">
+            <span class="card-kicker">UNE CARTE VOUS ATTEND</span>
+            <span class="card-flower">✧</span>
+            <p>Le plus intéressant commence<br>parfois avec une question.</p>
+            <button class="primary-button" id="draw-card">Découvrir une carte <span>↗</span></button>
+          </div>
           <article class="prompt-card hidden" id="prompt-card" aria-live="polite">
-            <div class="prompt-card-top"><span id="card-type" class="tag">VÉRITÉ</span><span id="card-count" class="card-count">CARTE 01</span></div>
+            <div class="prompt-card-top">
+              <span id="card-type" class="tag">VÉRITÉ</span>
+              <span id="card-count" class="card-count">CARTE 01</span>
+            </div>
             <div class="prompt-content"><p id="prompt-text"></p></div>
             <div id="prompt-tags" class="prompt-tags"></div>
-            <div class="prompt-card-bottom"><span id="prompt-level">DOUCEUR</span><span>HONRYN · À DEUX</span></div>
+            <div class="prompt-card-bottom">
+              <span id="prompt-level">DOUCEUR</span>
+              <span>HONRYN · À DEUX</span>
+            </div>
           </article>
         </div>
+
         <div class="game-actions hidden" id="game-actions">
           <button class="secondary-button" id="skip-card">Passer <span>↷</span></button>
           <button class="secondary-button" id="favorite-card" aria-pressed="false">♡ Favori</button>
@@ -70,9 +143,20 @@
 
       <section class="screen" id="screen-wheel" aria-labelledby="wheel-title">
         <button class="back-link" data-screen="home">← Accueil</button>
-        <div class="game-heading"><p class="eyebrow">LAISSEZ FAIRE LE HASARD</p><h1 id="wheel-title">La roue <em>des possibles.</em></h1><p class="muted">Chaque arrêt vous propose une carte adaptée à l'ambiance choisie.</p></div>
-        <div class="game-controls"><span class="control-label">AMBIANCE</span><div class="pill-group" id="wheel-level-pills"></div></div>
-        <div class="wheel-wrap"><div class="wheel-pointer">▼</div><canvas id="wheel-canvas" width="600" height="600" aria-label="Roue de jeu"></canvas><div class="wheel-center">H<span>✧</span></div></div>
+        <div class="game-heading">
+          <p class="eyebrow">LAISSEZ FAIRE LE HASARD</p>
+          <h1 id="wheel-title">La roue <em>des possibles.</em></h1>
+          <p class="muted">Chaque arrêt vous propose une carte adaptée à l'ambiance choisie.</p>
+        </div>
+        <div class="game-controls">
+          <span class="control-label">AMBIANCE</span>
+          <div class="pill-group" id="wheel-level-pills"></div>
+        </div>
+        <div class="wheel-wrap">
+          <div class="wheel-pointer">▼</div>
+          <canvas id="wheel-canvas" width="600" height="600" aria-label="Roue de jeu"></canvas>
+          <div class="wheel-center">H<span>✧</span></div>
+        </div>
         <p class="wheel-result" id="wheel-result">Prêts à découvrir ?</p>
         <button class="primary-button wheel-spin" id="spin-wheel">Faire tourner la roue <span>↻</span></button>
         <div class="consent-note"><span>✧</span> Le résultat est une suggestion, jamais une obligation.</div>
@@ -80,39 +164,127 @@
 
       <section class="screen" id="screen-custom" aria-labelledby="custom-title">
         <button class="back-link" data-screen="home">← Accueil</button>
-        <div class="game-heading"><p class="eyebrow">VOTRE IMAGINATION</p><h1 id="custom-title">Le jeu <em>à votre image.</em></h1><p class="muted">Créez des cartes qui vous ressemblent. Elles restent sur cet appareil.</p></div>
+        <div class="game-heading">
+          <p class="eyebrow">VOTRE IMAGINATION</p>
+          <h1 id="custom-title">Le jeu <em>à votre image.</em></h1>
+          <p class="muted">Créez des cartes qui vous ressemblent. Elles restent sur cet appareil.</p>
+        </div>
         <form id="custom-form" class="custom-form">
-          <label for="custom-text">Votre carte</label><textarea id="custom-text" rows="3" maxlength="400" placeholder="Écrivez une question ou un défi…" required></textarea>
-          <div class="form-row"><div><label for="custom-type">Type</label><select id="custom-type"><option value="truth">Vérité</option><option value="action">Action</option><option value="connection">Connexion</option></select></div><div><label for="custom-level">Ambiance</label><select id="custom-level"><option value="soft">Douce</option><option value="warm">Complice</option><option value="spicy">Pimentée</option></select></div></div>
-          <label for="custom-tags">Mots-clés (facultatif)</label><input id="custom-tags" maxlength="100" placeholder="ex. souvenirs, tendresse, rire">
+          <label for="custom-text">Votre carte</label>
+          <textarea id="custom-text" rows="3" maxlength="400" placeholder="Écrivez une question ou un défi…" required></textarea>
+          <div class="form-row">
+            <div>
+              <label for="custom-type">Type</label>
+              <select id="custom-type">
+                <option value="truth">Vérité</option>
+                <option value="action">Action</option>
+                <option value="connection">Connexion</option>
+              </select>
+            </div>
+            <div>
+              <label for="custom-level">Ambiance</label>
+              <select id="custom-level">
+                <option value="soft">Douce</option>
+                <option value="warm">Complice</option>
+                <option value="spicy">Pimentée</option>
+              </select>
+            </div>
+          </div>
+          <label for="custom-tags">Mots-clés (facultatif)</label>
+          <input id="custom-tags" maxlength="100" placeholder="ex. souvenirs, tendresse, rire">
           <button class="primary-button" type="submit">Ajouter la carte <span>＋</span></button>
         </form>
-        <div class="section-heading custom-list-heading"><div><p class="eyebrow">VOTRE COLLECTION</p><h2 id="custom-count">0 carte</h2></div><button class="text-button" id="export-data">Exporter ↗</button></div>
+        <div class="section-heading custom-list-heading">
+          <div>
+            <p class="eyebrow">VOTRE COLLECTION</p>
+            <h2 id="custom-count">0 carte</h2>
+          </div>
+          <button class="text-button" id="export-data">Exporter ↗</button>
+        </div>
         <div id="custom-list" class="custom-list"></div>
       </section>
 
       <section class="screen" id="screen-history" aria-labelledby="history-title">
         <button class="back-link" data-screen="home">← Accueil</button>
-        <div class="game-heading"><p class="eyebrow">VOS MOMENTS</p><h1 id="history-title">Les traces <em>du jeu.</em></h1><p class="muted">Retrouvez vos cartes et vos favoris, uniquement sur cet appareil.</p></div>
-        <div class="history-tabs"><button class="tab-button active" data-history-tab="history">Historique</button><button class="tab-button" data-history-tab="favorites">Favoris</button></div>
+        <div class="game-heading">
+          <p class="eyebrow">VOS MOMENTS</p>
+          <h1 id="history-title">Les traces <em>du jeu.</em></h1>
+          <p class="muted">Retrouvez vos cartes et vos favoris, uniquement sur cet appareil.</p>
+        </div>
+        <div class="history-tabs">
+          <button class="tab-button active" data-history-tab="history">Historique</button>
+          <button class="tab-button" data-history-tab="favorites">Favoris</button>
+        </div>
         <div id="history-list" class="history-list"></div>
         <button class="secondary-button danger-button" id="clear-history">Effacer l'historique</button>
       </section>
 
       <section class="screen" id="screen-settings" aria-labelledby="settings-title">
         <button class="back-link" data-screen="home">← Accueil</button>
-        <div class="game-heading"><p class="eyebrow">VOTRE ESPACE</p><h1 id="settings-title">Les règles <em>du jeu.</em></h1><p class="muted">Ajustez Honryn à votre duo. Rien n'est envoyé en ligne.</p></div>
+        <div class="game-heading">
+          <p class="eyebrow">VOTRE ESPACE</p>
+          <h1 id="settings-title">Les règles <em>du jeu.</em></h1>
+          <p class="muted">Ajustez Honryn à votre duo. Rien n'est envoyé en ligne.</p>
+        </div>
         <form id="settings-form" class="settings-form">
-          <div class="settings-section"><p class="eyebrow">VOTRE DUO</p><div class="form-row"><div><label for="player-one">Prénom 1</label><input id="player-one" maxlength="24" placeholder="Joueur·se 1"></div><div><label for="player-two">Prénom 2</label><input id="player-two" maxlength="24" placeholder="Joueur·se 2"></div></div></div>
-          <div class="settings-section"><p class="eyebrow">PRÉFÉRENCES</p><label class="setting-toggle"><span><strong>Adapter les suggestions</strong><small>Privilégier les ambiances que vous choisissez le plus.</small></span><input id="adaptive-toggle" type="checkbox"><i></i></label><label class="setting-toggle"><span><strong>Inclure les cartes pimentées</strong><small>Vous pouvez les désactiver à tout moment.</small></span><input id="spicy-toggle" type="checkbox"><i></i></label><label class="setting-toggle"><span><strong>Confirmer avant une ambiance pimentée</strong><small>Une pause pour vérifier que vous en avez tous les deux envie.</small></span><input id="confirm-spicy" type="checkbox"><i></i></label></div>
-          <div class="settings-section"><p class="eyebrow">DONNÉES LOCALES</p><p class="muted small-copy">Vos prénoms, cartes personnalisées, favoris et historique sont enregistrés dans le stockage local de votre navigateur. Effacer les données du site peut les supprimer.</p><div class="settings-buttons"><button class="secondary-button" type="button" id="backup-export">Exporter mes données</button><label class="secondary-button import-label" for="import-file">Importer une sauvegarde<input type="file" id="import-file" accept="application/json,.json" hidden></label></div><button class="text-button danger-text" type="button" id="reset-all">Réinitialiser toutes les données</button></div>
+          <div class="settings-section">
+            <p class="eyebrow">VOTRE DUO</p>
+            <div class="form-row">
+              <div>
+                <label for="player-one">Prénom 1</label>
+                <input id="player-one" maxlength="24" placeholder="Joueur·se 1">
+              </div>
+              <div>
+                <label for="player-two">Prénom 2</label>
+                <input id="player-two" maxlength="24" placeholder="Joueur·se 2">
+              </div>
+            </div>
+          </div>
+          <div class="settings-section">
+            <p class="eyebrow">PRÉFÉRENCES</p>
+            <label class="setting-toggle">
+              <span><strong>Adapter les suggestions</strong><small>Privilégier les ambiances que vous choisissez le plus.</small></span>
+              <input id="adaptive-toggle" type="checkbox"><i></i>
+            </label>
+            <label class="setting-toggle">
+              <span><strong>Inclure les cartes pimentées</strong><small>Vous pouvez les désactiver à tout moment.</small></span>
+              <input id="spicy-toggle" type="checkbox"><i></i>
+            </label>
+            <label class="setting-toggle">
+              <span><strong>Confirmer avant une ambiance pimentée</strong><small>Une pause pour vérifier que vous en avez tous les deux envie.</small></span>
+              <input id="confirm-spicy" type="checkbox"><i></i>
+            </label>
+          </div>
+          <div class="settings-section">
+            <p class="eyebrow">DONNÉES LOCALES</p>
+            <p class="muted small-copy">Vos prénoms, cartes personnalisées, favoris et historique sont enregistrés dans le stockage local de votre navigateur. Effacer les données du site peut les supprimer.</p>
+            <div class="settings-buttons">
+              <button class="secondary-button" type="button" id="backup-export">Exporter mes données</button>
+              <label class="secondary-button import-label" for="import-file">Importer une sauvegarde<input type="file" id="import-file" accept="application/json,.json" hidden></label>
+            </div>
+            <button class="text-button danger-text" type="button" id="reset-all">Réinitialiser toutes les données</button>
+          </div>
           <button class="primary-button" type="submit">Enregistrer les préférences <span>✓</span></button>
         </form>
       </section>
     </main>
+
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <div id="confirm-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel"><span class="modal-ornament">✧</span><p class="eyebrow">UNE PAUSE AVANT DE CONTINUER</p><h2 id="modal-title">On garde cette ambiance ?</h2><p id="modal-copy" class="muted">Cette carte est plus pimentée. Vérifiez que vous en avez tous les deux envie.</p><div class="modal-actions"><button class="secondary-button" id="modal-cancel">Pas maintenant</button><button class="primary-button" id="modal-confirm">Oui, continuer <span>↗</span></button></div></div></div>
+    <div id="confirm-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-panel">
+        <span class="modal-ornament">✧</span>
+        <p class="eyebrow">UNE PAUSE AVANT DE CONTINUER</p>
+        <h2 id="modal-title">On garde cette ambiance ?</h2>
+        <p id="modal-copy" class="muted">Cette carte est plus pimentée. Vérifiez que vous en avez tous les deux envie.</p>
+        <div class="modal-actions">
+          <button class="secondary-button" id="modal-cancel">Pas maintenant</button>
+          <button class="primary-button" id="modal-confirm">Oui, continuer <span>↗</span></button>
+        </div>
+      </div>
+    </div>
   </div>
+
   <script src="./data.js"></script>
   <script src="./app.js"></script>
 </body>
