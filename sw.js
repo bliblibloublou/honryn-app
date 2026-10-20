@@ -1,4 +1,4 @@
-const CACHE_NAME = 'honryn-v2.2';
+const CACHE_NAME = 'honryn-v2.3';
 const CORE = ['./','./index.html','./styles.css','./data.js','./app.js','./manifest.json','./icons/icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil((async()=>{const cache=await caches.open(CACHE_NAME);for(const asset of CORE){try{await cache.add(asset)}catch(error){console.warn('Cache asset skipped:',asset)}}await self.skipWaiting()})());
