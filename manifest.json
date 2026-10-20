@@ -1,0 +1,15 @@
+{
+  "name": "Honryn — À deux, autrement",
+  "short_name": "Honryn",
+  "description": "Un jeu de couple élégant, à votre rythme.",
+  "lang": "fr-FR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#101013",
+  "theme_color": "#101013",
+  "icons": [
+    {"src":"./icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
